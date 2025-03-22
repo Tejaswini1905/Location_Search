@@ -1,0 +1,89 @@
+body {
+  margin: 0px;
+  padding: 0px 442px 0px 427px;
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  color: #333;
+}
+
+/* Main container */
+.location-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Input field */
+  .location-input {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+  }
+  
+  /* Search Button */
+  .search-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Location List */
+  .location-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    max-width: 400px;
+    margin: 10px auto;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Location Item */
+  .location-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .location-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Selected Location Details */
+  .selected-location {
+    margin-top: 20px;
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .selected-location h3 {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .selected-location p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  
